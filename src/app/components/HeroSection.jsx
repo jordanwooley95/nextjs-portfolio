@@ -27,9 +27,9 @@ const HeroSection = () => {
               sequence={[
                 'Jordan',
                 1000,
-                'Web Developer',
+                'Web Dev',
                 1000,
-                'AI Developer',
+                'AI Dev',
                 1000
               ]}
               wrapper='span'
@@ -37,25 +37,18 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p
-            className={`${dancingScript.className} text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl`}
-          >
-            Quality is not an act, it is a habit. - Aristotle
-          </p>
-          <div>
+          <div className='flex flex-col items-center'>
+            <p
+              className={`${dancingScript.className} text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl`}
+            >
+              Quality is not an act, it is a habit. - Aristotle
+            </p>
+
             <Link
               href='/#contact'
-              className='px-6 inline-block py-3 rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white'
+              className='px-6 inline-block py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white'
             >
               Hire Me
-            </Link>
-            <Link
-              href='/'
-              className='px-1 inline-block py-1 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3'
-            >
-              <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>
-                Download CV
-              </span>
             </Link>
           </div>
         </motion.div>
