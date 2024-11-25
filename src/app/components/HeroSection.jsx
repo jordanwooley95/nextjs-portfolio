@@ -24,33 +24,25 @@ const HeroSection = () => {
             </span>
             <br></br>
             <TypeAnimation
-              sequence={[
-                'Jordan',
-                1000,
-                'Web Dev',
-                1000,
-                'AI Dev',
-                1000
-              ]}
+              sequence={['Jordan', 1000, 'Web Developer', 1000, 'AI Developer', 1000]}
               wrapper='span'
               speed={50}
               repeat={Infinity}
             />
           </h1>
-          <div className='flex flex-col items-center'>
-            <p
-              className={`${dancingScript.className} text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl`}
-            >
-              Quality is not an act, it is a habit. - Aristotle
-            </p>
 
-            <Link
-              href='/#contact'
-              className='px-6 inline-block py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white'
-            >
-              Hire Me
-            </Link>
-          </div>
+          <p
+            className={`${dancingScript.className} text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl`}
+          >
+            Quality is not an act, it is a habit. - Aristotle
+          </p>
+
+          <Link
+            href='/#contact'
+            className='px-6 inline-block py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white'
+          >
+            Hire Me
+          </Link>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
