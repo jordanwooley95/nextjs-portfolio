@@ -52,7 +52,7 @@ const HeroSection = () => {
         >
           <Image
             src='/images/hero-image.png'
-            alt='hero image'
+            alt='hero imag'
             className='rounded-full object-contain transform scale-75 sm:scale-100'
             width={400}
             height={400}
