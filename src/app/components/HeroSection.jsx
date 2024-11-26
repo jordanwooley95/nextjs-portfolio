@@ -41,7 +41,7 @@ const HeroSection = () => {
             href='/#contact'
             className='px-6 inline-block py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white'
           >
-            Hire Me
+            Contact Me
           </Link>
         </motion.div>
         <motion.div
